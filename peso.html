@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Peso</title>
+  <link rel="stylesheet" type="text/css" href="peso.css">
+  <script src="peso.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Peso</h1>
+    <div class="form-group">
+      <label>Peso (quilogramas):</label>
+      <input type="number" id="inputWeight" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <label>Peso em Libras:</label>
+      <input type="number" id="outputPounds" readonly>
+    </div>
+    <div class="form-group">
+      <label>Peso em Onças:</label>
+      <input type="number" id="outputOunces" readonly>
+    </div>
+    <button onclick="convertWeight()">Converter</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

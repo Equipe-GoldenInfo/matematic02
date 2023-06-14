@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Massa, Volume e Densidade</title>
+  <link rel="stylesheet" type="text/css" href="massa.css">
+  <script src="massa.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Massa, Volume e Densidade</h1>
+    <div class="form-group">
+      <label>Massa (kg):</label>
+      <input type="number" id="inputMass" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <label>Volume (m³):</label>
+      <input type="number" id="inputVolume" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <button onclick="calculate()">Calcular</button>
+    </div>
+    <div class="result">
+      <div class="result-group">
+        <label>Densidade:</label>
+        <span id="resultDensity"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
