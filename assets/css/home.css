@@ -9,13 +9,15 @@
     justify-content: center;
 }
 
-.titulo{
-    /* text-align: center; */
-    
-}
-
 .header-nav{
     width: 1920px;
-    height: 65px;
     background: #B83A6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-component{
+    margin-right: 50px;
+    color: aliceblue;
 }
