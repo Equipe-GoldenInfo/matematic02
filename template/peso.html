@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conversor de Peso</title>
-  <link rel="stylesheet" type="text/css" href="peso.css">
-  <script src="peso.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/peso.css">
+  <script src="../assets/js/peso.js"></script>
 </head>
 <body>
 
   <header>
     <nav class="header-component">
-        <h1 class="titulo">JeoMatematic</h1>
+      <img src="../assets/img/unnamed-removebg-preview.png" class="logo">
+      <h1 class="titulo">Matematic</h1>
+      <nav class="header-nav">
+        <a class="header-nav-component" href="../template/home.html">Home</a>      
+        <a class="header-nav-component" href="../template/temperatura.html">Temperatura</a>
+        <a class="header-nav-component" href="../template/imc.html">IMC</a>
+        <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
+        <a class="header-nav-component" href="../template/massa.html">Densidade</a>
+      </nav>
     </nav>
 
-    <nav class="header-nav">
-        <a class="header-nav-component">Temperatura</a>
-        <a class="header-nav-component">Peso</a>
-        <a class="header-nav-component">IMC</a>
-        <a class="header-nav-component">Pitágoras</a>
-        <a class="header-nav-component">Massa/Densidade/Volume</a>
-    </nav>
-    
 </header>
+
+<div class="banner"><img src="../assets/img/banner.png"></div>
 
   <div class="container">
     <h1>Conversor de Peso</h1>
@@ -37,6 +41,13 @@
       <input type="number" id="outputOunces" readonly>
     </div>
     <button onclick="convertWeight()">Converter</button>
+  </div>
+
+  <div class="back">
+    <h3>
+      O Índice de Massa Corporal (IMC) é uma medida que relaciona o peso e a altura de uma pessoa para avaliar se ela está dentro de faixas consideradas saudáveis.
+      O cálculo do IMC é feito dividindo o peso pelo quadrado da altura. Com base nos valores obtidos, o IMC é interpretado em faixas que indicam se a pessoa está abaixo do peso, com peso normal, com sobrepeso ou com obesidade.
+      No entanto, o IMC não considera outros fatores importantes, como a composição corporal, a distribuição de gordura ou a proporção de massa muscular, sendo recomendável buscar orientação profissional para uma avaliação mais completa e precisa.</h3>
   </div>
 
   <script src="script.js"></script>

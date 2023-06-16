@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conversor de Temperatura</title>
-  <link rel="stylesheet" type="text/css" href="temperatura.css">
-<script src="temperatura.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/temperatura.css">
+<script src="../assets/js/temperatura.js"></script>
 <body>
 
   <header>
     <nav class="header-component">
-        <h1 class="titulo">JeoMatematic</h1>
-    </nav>
-
-    <nav class="header-nav">
-        <a class="header-nav-component">Temperatura</a>
-        <a class="header-nav-component">Peso</a>
-        <a class="header-nav-component">IMC</a>
-        <a class="header-nav-component">Pitágoras</a>
-        <a class="header-nav-component">Massa/Densidade/Volume</a>
+      <img src="../assets/img/unnamed-removebg-preview.png" class="logo">
+      <h1 class="titulo">Matematic</h1>
+      <nav class="header-nav">
+        <a class="header-nav-component" href="../template/home.html">Home</a>
+        <a class="header-nav-component" href="../template/peso.html">Peso</a>
+        <a class="header-nav-component" href="../template/imc.html">IMC</a>
+        <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
+        <a class="header-nav-component" href="../template/massa.html">Densidade</a>
+      </nav>
     </nav>
     
 </header>
 
+<div class="banner"><img src="../assets/img/banner.png"></div>
+
   <h1>Conversor de Temperatura</h1>
-  
+<div class="container">
   <div class="converter">
     <label for="temp-celsius">Celsius:</label>
     <input type="number" id="temp-celsius">
@@ -42,7 +46,7 @@
     <button onclick="converterParaCelsius()">Converter para Celsius</button>
     <button onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
   </div>
+</div>  
 
-  <script src="script.js"></script>
 </body>
 </html>
