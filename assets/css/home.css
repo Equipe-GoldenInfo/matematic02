@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: #dfd0e9;
+}
+
+.header-component{
+    width: 1920px;
+    height: 65px;
+    background: #5E27B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav{
+    width: 1920px;
+    background: #B83A6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-component{
+    margin-right: 50px;
+    color: aliceblue;
+}
+
+.titulo{
+    color: aliceblue;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
