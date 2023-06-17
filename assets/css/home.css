@@ -1,6 +1,16 @@
 * {margin: 0; padding: 0; box-sizing: border-box;
 }
   
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .header-component {
     width: 100%;
     /* height: 65px; */
@@ -41,7 +51,7 @@
     color: white;
   }
   
-.corpo {
+.corpo-frase {
   background-image: linear-gradient(to left, #7839dd, #2b0863);
   height: 100%;
   margin-top: 3%;
@@ -54,6 +64,15 @@
     max-width: 100%;
     height: auto;
   }
+
+.welcome{
+  display: flexbox;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 65%;
+}
   
   /* Media query para telas menores que 768px */
   @media screen and (max-width: 768px) {
