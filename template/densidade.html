@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Massa, Volume e Densidade</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/densidade.css">
+  <link rel="icon" href="../assets/img/unnamed-removebg-preview.png">
+  <script src="../assets/js/densidade.js"></script>
+</head>
+<body>
+  
+  <header>
+    <nav class="header-component">
+      <img src="../assets/img/unnamed-removebg-preview.png" class="logo">
+      <h1 class="titulo">Matematic</h1>
+
+      <nav class="header-nav">
+        <a class="header-nav-component" href="../template/home.html">Home</a>      
+        <a class="header-nav-component" href="../template/temperatura.html">Temperatura</a>
+        <a class="header-nav-component" href="../template/peso.html">Peso</a>
+        <a class="header-nav-component" href="../template/imc.html">IMC</a>
+        <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
+      </nav>
+
+    </nav>
+    
+  </header>
+
+  <img class="banner" src="../assets/img/banner.png">
+
+  <div class="container">
+    <h1>Calcular Densidade</h1>
+    <div class="form-group">
+      <label>Massa (kg):</label>
+      <input type="number" id="inputMass" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <label>Volume (m³):</label>
+      <input type="number" id="inputVolume" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <button onclick="calculate()">Calcular</button>
+    </div>
+    <div class="result">
+      <div class="result-group">
+        <label>Densidade:</label>
+        <span id="resultDensity"></span>
+      </div>
+    </div>
+  </div>
+
+  <a href="../template/densidadeformula.html"><h3 class="formula">Ver Fórmulas</h3></a>
+
+</body>
+</html>

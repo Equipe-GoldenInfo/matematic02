@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conversor de Temperatura</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/temperatura.css">
-<script src="../assets/js/temperatura.js"></script>
+  <link rel="icon" href="../assets/img/unnamed-removebg-preview.png">
+  <script src="../assets/js/temperatura.js"></script>
 <body>
 
   <header>
@@ -17,36 +18,38 @@
         <a class="header-nav-component" href="../template/peso.html">Peso</a>
         <a class="header-nav-component" href="../template/imc.html">IMC</a>
         <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
-        <a class="header-nav-component" href="../template/massa.html">Densidade</a>
+        <a class="header-nav-component" href="../template/densidade.html">Densidade</a>
       </nav>
     </nav>
     
-</header>
+  </header>
 
-<div class="banner"><img src="../assets/img/banner.png"></div>
+  <img class="banner" src="../assets/img/banner.png">
 
-  <h1>Conversor de Temperatura</h1>
-<div class="container">
-  <div class="converter">
-    <label for="temp-celsius">Celsius:</label>
-    <input type="number" id="temp-celsius">
-    <br>
-    <button onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
-    <button onclick="converterParaKelvin()">Converter para Kelvin</button>
-    <br>
-    <label for="temp-fahrenheit">Fahrenheit:</label>
-    <input type="number" id="temp-fahrenheit">
-    <br>
-    <button onclick="converterParaCelsius()">Converter para Celsius</button>
-    <button onclick="converterParaKelvin()">Converter para Kelvin</button>
-    <br>
-    <label for="temp-kelvin">Kelvin:</label>
-    <input type="number" id="temp-kelvin">
-    <br>
-    <button onclick="converterParaCelsius()">Converter para Celsius</button>
-    <button onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
-  </div>
-</div>  
+  <div class="container">
+    <div class="converter">
+      <h1 class="letra-tab">Conversor de Temperatura</h1>
+      <label for="temp-celsius">Celsius:</label>
+      <input type="number" id="temp-celsius">
+      <br>
+      <button class="botao" onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
+      <button class="botao" onclick="converterParaKelvin()">Converter para Kelvin</button>
+      <br>
+      <label for="temp-fahrenheit">Fahrenheit:</label>
+      <input type="number" id="temp-fahrenheit">
+      <br>
+      <button class="botao" onclick="converterParaCelsius()">Converter para Celsius</button>
+      <button class="botao" onclick="converterParaKelvin()">Converter para Kelvin</button>
+      <br>
+      <label for="temp-kelvin">Kelvin:</label>
+      <input type="number" id="temp-kelvin">
+      <br>
+      <button class="botao" onclick="converterParaCelsius()">Converter para Celsius</button>
+      <button class="botao" onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
+    </div>
+  </div>  
+
+  <a href="../template/temperaturaformulas.html"><h3 class="formula">Ver Fórmulas</h3></a>
 
 </body>
 </html>
