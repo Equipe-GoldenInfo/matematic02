@@ -52,6 +52,15 @@ body{
   height: auto;
 }
 
+.formulas{
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to left, #7839dd, #2b0863);
+  height: 100%;
+  margin-top: 3%;
+  box-shadow: 0 0 50px #2b0863;
+}
+
 /* Media query para telas menores que 768px */
 @media screen and (max-width: 768px) {
     .header-nav {
@@ -78,6 +87,10 @@ body{
   /* Media query para telas menores que 480px */
   @media screen and (max-width: 480px) {
     .header-nav-component {
+      font-size: 14px;
+    }
+
+    .formulas{
       font-size: 14px;
     }
   }
