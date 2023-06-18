@@ -3,6 +3,9 @@
   
 body {
   font-family: Arial, sans-serif;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
@@ -12,44 +15,44 @@ body {
 }
 
 .header-component {
-    width: 100%;
-    /* height: 65px; */
-    background: #5E27B7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  /* height: 65px; */
+  background: #5E27B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
 .header-nav {
-    width: 100%;
-    max-width: 1920px;
-    /* background: #B83A6F; */
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+  width: 100%;
+  max-width: 1920px;
+  /* background: #B83A6F; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
   
 .header-nav-component {
-    margin-right: 5%;
-    color: aliceblue;
-  }
+  margin-right: 5%;
+  color: aliceblue;
+}
   
 .titulo {
-    color: aliceblue;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+  color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
   
 .logo {
-    height: 75px;
-    width: 75px;
-  }
+  height: 75px;
+  width: 75px;
+}
   
 .frase {
-    text-align: center;
-    margin-top: 5%;
-    color: white;
-  }
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
   
 .corpo-frase {
   background-image: linear-gradient(to left, #7839dd, #2b0863);
@@ -59,11 +62,11 @@ body {
 }
   
 .banner {
-    display: flex;
-    align-self: center;
-    max-width: 100%;
-    height: auto;
-  }
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+}
 
 .welcome{
   display: flexbox;
@@ -95,6 +98,14 @@ body {
       height: 50px;
       width: 50px;
     }
+
+    .corpo-frase{
+      font-size: 18px;
+    }
+
+    .welcome{
+      font-size: 18px;
+    }
   }
   
   /* Media query para telas menores que 480px */
@@ -102,5 +113,15 @@ body {
     .header-nav-component {
       font-size: 14px;
     }
+
+    .corpo-frase{
+      font-size: 14px;
+    }
+
+    .welcome{
+      font-size: 14px;
+    }
+
+
   }
   

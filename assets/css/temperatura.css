@@ -1,71 +1,74 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+  font-family: Arial, sans-serif;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
 .header-component{
-    background: #5E27B7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: #5E27B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
-  .header-nav{
-    width: 100%;
-    max-width: 1920px;
-    /* background: #B83A6F; */
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
+.header-nav{
+  width: 100%;
+  max-width: 1920px;
+  /* background: #B83A6F; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
   
-  .header-nav-component{
-      margin-right: 50px;
-      color: aliceblue;
-  }
+.header-nav-component{
+  margin-right: 50px;
+  color: aliceblue;
+}
  
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    width: 400px;
-    padding: 20px;
-    background-color: #000000;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+.container { 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
   
-  .letra-tab{
-    text-align: center;
-    color: #5E27B7;
-    margin-bottom: 30px;
-  }
+.letra-tab{
+  text-align: center;
+  color: #5E27B7;
+  margin-bottom: 30px;
+}
   
-  .form-group {
-    margin-bottom: 20px;
-  }
+.form-group {
+  margin-bottom: 20px;
+}
   
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #5c1cc4;
-    font-weight: bold;
-  }
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5c1cc4;
+  font-weight: bold;
+}
   
-  input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
   
 .botao{
   display: inline-block;
@@ -81,14 +84,14 @@ body {
   margin-top: 2%;
 }
   
-  button:hover {
-    background-color: #5900ff;
-  }
+button:hover {
+  background-color: #5900ff;
+}
   
-  .result {
-    margin-top: 30px;
-    text-align: center;
-  }
+.result {
+  margin-top: 30px;
+  text-align: center;
+}
   
 .result-label {
   color: #555555;
@@ -106,24 +109,24 @@ input{
   color: rgb(0, 110, 255);
 }
 
-  .titulo{
-    color: aliceblue;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+.titulo{
+  color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
   
-  .logo{
-    height: 75px;
-    width: 75px;
-  }
+.logo{
+  height: 75px;
+  width: 75px;
+}
 
-  .back{
-    margin-top: 40px;
-    text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 1768px;
-  }
+.back{
+  margin-top: 40px;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 1768px;
+}
 
 .banner {
   display: flex;
@@ -165,5 +168,7 @@ input{
 @media screen and (max-width: 480px) {
   .header-nav-component {
     font-size: 14px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 }
