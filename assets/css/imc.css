@@ -131,7 +131,7 @@ button:hover {
   text-align: justify;
   margin-left: 20%;
   margin-right: 20%;
-  height: 1768px;
+  height: auto;
 }
 
 .banner {
@@ -139,6 +139,29 @@ button:hover {
   align-self: center;
   max-width: 100%;
   height: auto;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #170336;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0 0 50px #2b0863; 
+}
+
+
+.insta{
+  height: 40px;
+  width: 40px;
+}
+
+.contt01{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 /* Media query para telas menores que 768px */
