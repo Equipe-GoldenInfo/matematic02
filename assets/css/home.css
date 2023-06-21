@@ -70,11 +70,19 @@ body {
 
 .welcome{
   display: flexbox;
-  margin-top: 3%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   max-width: 65%;
+}
+
+.sugestoes{
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+  background-image: linear-gradient(to left, #aa7af8, #6824d4);
+
 }
 
 .opicoes{
@@ -83,6 +91,8 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 13px;
+  justify-content: center;
 }
 
 .desc-opc{
@@ -95,6 +105,29 @@ body {
   max-width: 200px;
   height: auto;
   margin-right: 15%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #170336;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0 0 50px #2b0863; 
+}
+
+
+.insta{
+  height: 40px;
+  width: 40px;
+}
+
+.contt01{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
   
   /* Media query para telas menores que 768px */
@@ -146,6 +179,8 @@ body {
       font-size: 14px;
     }
 
-
+    .sugestoes{
+      font-size: 14px;
+    }
   }
   
