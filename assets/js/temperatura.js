@@ -7,7 +7,7 @@ function converterParaFahrenheit() {
 
     var kelvin = parseFloat(document.getElementById("temp-kelvin").value);
     var fahrenheit = ((kelvin-273)*1.8+32);
-    document.getElementById("temp-fahrenheit").value = fahrenheit,toFixed(2);
+    document.getElementById("temp-fahrenheit").value = fahrenheit.toFixed(2);
   }
   
   function converterParaCelsius() {
