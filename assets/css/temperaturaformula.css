@@ -87,6 +87,28 @@ footer{
   margin-top: 15px;
 }
 
+.formul{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.img-formul{
+  display: flex;
+  margin-inline: auto;
+  justify-self: center;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  width: 70%;
+}
+
+.explicacao-formul{
+  text-align: center;
+  max-width: 40%;
+  margin-inline: auto;
+}
+
 /* Media query para telas menores que 768px */
 @media screen and (max-width: 768px) {
     .header-nav {
